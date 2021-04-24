@@ -5,7 +5,10 @@ Mastermind is a board game where the computer randomly places four colored pegs 
 
 
 <h2>How was it Implemented?</h2>
-The game is coded in python and is playable on the command line. The player can either choose to play the game or watch the computer play the game. Every time the player starts a new game, four pegs are randomly colored red, blue, yellow, green, purple, or orange. The computer checks the player's answer after each guess. When the computer plays the game, the pegs are given random colors just like when the player plays. The computer's algorithm when playing is based on Donald Knuth's algorithm. You can read more about his algorithm on Wikipedia. https://en.wikipedia.org/wiki/Mastermind_(board_game) .
+The game is coded in python and is playable on the command line. The player can either choose to play the game or watch the computer play the game. Every time the player starts a new game, four pegs are randomly colored red, blue, yellow, green, purple, or orange. The computer checks the player's answer after each guess. When the computer plays the game, the pegs are given random colors just like when the player plays. The computer's algorithm when playing is based on Donald Knuth's algorithm. You can read more about his algorithm on Wikipedia. https://en.wikipedia.org/wiki/Mastermind_(board_game) 
 
 <h2>What are Future Steps for this Project?</h2>
-Currently, the game is playable on the command line. The player can choose to play the game or watch the computer play against itself. In the future, I would like make it playable on a GUI. Donald Knuth's algorithm should find the solution within 5 turns. Instead, this implementation takes, on average, 11 turns to find the solution. In the future, I would like to fix this.
+<ul>
+  <li>Currently, the game is playable on the command line. In the future, I would like make it playable on a GUI.</li>
+  <li>Donald Knuth's algorithm should find the solution within 5 turns. Instead, this implementation takes, on average, 11 turns to find the solution. In the future, I would like to fix this so the computer can solve the puzzle within 5 turns.</li>
+</ul>
